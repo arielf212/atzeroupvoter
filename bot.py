@@ -9,4 +9,5 @@ while True:
     for post in collective.new(limit = 100):
         if post.score <= 0:
             post.upvote()
+            print post.title
     time.sleep(600)
