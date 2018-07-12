@@ -10,4 +10,5 @@ while True:
         if post.score <= 0:
             post.upvote()
             print(post.title)
+            print(post.score)
     time.sleep(600)
